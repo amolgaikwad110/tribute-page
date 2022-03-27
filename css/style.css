@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tribute-page {
+    padding: 100px 80px 25px 80px;
+    border: 10px solid #1D1E4C;
+    background-color: #E5E5FD;
+    
+}
+
+.tribute-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+.tribute-page-header img{
+    width: 300px;
+}
+
+.tribute-page-header-info {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.tribute-page-header-info h1 {
+    font-size: 48px;
+}
+
+.tribute-page-header-info h5 {
+    font-size: 24px;
+}
+
+.tribute-page-info {
+    margin-bottom: 50px;
+}
+
+.tribute-page-info h1 {
+    font-size: 72px;
+}
+
+.tribute-page-info p{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.tribute-page-description {
+    margin-bottom: 50px;
+}
+
+.tribute-page-description h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.tribute-page-description ul {
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.tribute-page-description li {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.tribute-page-footer {
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+}
